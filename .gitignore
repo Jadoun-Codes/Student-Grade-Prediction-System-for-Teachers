@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+models/*.pkl
+
+exports/*.xlsx
+
+.env
+
+.streamlit/secrets.toml
