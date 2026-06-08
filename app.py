@@ -157,3 +157,6 @@ st.dataframe(df.describe())
             file_name="graded_students.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
+
+	st.markdown("---")
+	st.caption("Developed using Streamlit and Python")
