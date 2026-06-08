@@ -66,6 +66,8 @@ st.dataframe(df.describe())
     # Grade Configuration
     st.subheader("📝 Teacher Grade Configuration")
 
+st.info("Configure grade boundaries before generating grades and risk levels.")
+
     st.write("Enter Grade Ranges")
 
     grade_rules = []
