@@ -38,6 +38,8 @@ if uploaded_file is not None:
 st.subheader("📄 Dataset Preview")
 st.dataframe(df.head())
 
+st.write(f"Rows: {df.shape[0]}")
+st.write(f"Columns: {df.shape[1]}")
     st.markdown("---")
 
     # Statistics
