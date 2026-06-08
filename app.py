@@ -138,6 +138,8 @@ st.info("Configure grade boundaries before generating grades and risk levels.")
         # Risk Distribution
         st.subheader("⚠ Risk Distribution")
 
+st.caption("Shows the number of students in each grade category.")
+
         st.bar_chart(
             df["RISK"].value_counts()
         )
