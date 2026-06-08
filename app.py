@@ -13,6 +13,9 @@ st.set_page_config(
 
 st.title("🎓 Student Grade Prediction System")
 
+st.sidebar.title("Navigation")
+st.sidebar.info("Student Grade Prediction System")
+
 st.markdown("---")
 
 # Upload Excel File
