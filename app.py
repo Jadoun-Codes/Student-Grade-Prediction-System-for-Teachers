@@ -13,6 +13,8 @@ st.set_page_config(
 
 st.title("🎓 Student Grade Prediction System")
 
+st.write("Upload student marks and automatically generate grades and risk analysis.")
+
 st.sidebar.title("Navigation")
 st.sidebar.info("Student Grade Prediction System")
 
