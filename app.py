@@ -63,6 +63,7 @@ st.dataframe(df.describe())
     col1.metric("Highest Marks", highest)
     col2.metric("Lowest Marks", lowest)
     col3.metric("Average Marks", average)
+st.info(f"Class average score is {average}")
     col4.metric("Students", total_students)
 
     st.markdown("---")
