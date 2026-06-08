@@ -124,6 +124,8 @@ st.info("Configure grade boundaries before generating grades and risk levels.")
             "Grades and Risk Generated Successfully"
         )
 
+st.balloons()
+
         st.subheader("📋 Result Preview")
 
         st.dataframe(df)
