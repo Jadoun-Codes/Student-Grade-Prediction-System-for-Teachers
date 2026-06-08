@@ -24,7 +24,8 @@ st.markdown("---")
 # Upload Excel File
 uploaded_file = st.file_uploader(
     "Upload Student Dataset",
-    type=["xlsx"]
+    type=["xlsx"],
+    help="Upload an Excel file containing student marks."
 )
 
 if uploaded_file is not None:
