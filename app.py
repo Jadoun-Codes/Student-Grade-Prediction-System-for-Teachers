@@ -33,7 +33,7 @@ if uploaded_file is not None:
     # Remove unnamed columns
     df = df.loc[:, ~df.columns.str.contains("^Unnamed")]
 
-    st.success("Dataset Uploaded Successfully")
+  st.success("Dataset uploaded and processed successfully.")
 
 st.subheader("📄 Dataset Preview")
 st.dataframe(df.head())
