@@ -40,6 +40,9 @@ st.dataframe(df.head())
 
 st.write(f"Rows: {df.shape[0]}")
 st.write(f"Columns: {df.shape[1]}")
+
+st.subheader("📈 Dataset Summary")
+st.dataframe(df.describe())
     st.markdown("---")
 
     # Statistics
