@@ -158,6 +158,8 @@ st.info("Configure grade boundaries before generating grades and risk levels.")
 
         excel_data = output.getvalue()
 
+st.subheader("📥 Export Results")
+
         st.download_button(
             label="⬇ Download Updated Excel",
             data=excel_data,
