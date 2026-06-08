@@ -35,6 +35,9 @@ if uploaded_file is not None:
 
     st.success("Dataset Uploaded Successfully")
 
+st.subheader("📄 Dataset Preview")
+st.dataframe(df.head())
+
     st.markdown("---")
 
     # Statistics
