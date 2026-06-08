@@ -8,6 +8,7 @@ from grading import GradeManager
 
 st.set_page_config(
     page_title="Student Grade Prediction System",
+    page_icon="🎓",
     layout="wide"
 )
 
